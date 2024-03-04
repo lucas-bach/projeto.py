@@ -1,5 +1,5 @@
 
-arquivo = open("bancodedados.csv", "a")
+arquivo = open('bancodedados.csv', 'a')
 
 while True:
  nome = input ('Digite seu nome:')
@@ -7,6 +7,7 @@ while True:
  graduação = input ('Digite sua gradução?')
  dataAniversario = input('digite sua data de nascimento:')
  planoAcademia = input ('Digite o seu plano: ')
+ 
 
 
  dados_alunos = [nome, idade, graduação, dataAniversario, planoAcademia, '\n'] 
